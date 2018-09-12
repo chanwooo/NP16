@@ -8,7 +8,7 @@ import java.util.Date;
 public class MultithreadedDaytimeServer {
 	
 	public final static int PORT = 1300;
-	int count=0;
+	static int count=0;
 		
 	public static void main(String[] args) {
 		try (ServerSocket server = new ServerSocket(PORT))	{
